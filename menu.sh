@@ -10,7 +10,7 @@ clear
 echo ""
 echo -e "       Free Script Auto Install " | lolcat  
 echo -e "          -Chock Fighter Academy- " | lolcat   
-echo -e "            -By @si_paidi-" | lolcat
+echo -e "            -By @Wisanggeni-" | lolcat
 echo -e ""
  date | lolcat
 echo -e "$cyan----------------R------------------------"
@@ -67,7 +67,7 @@ info
 about
 ;;
 11)
-pacth
+update
 ;;
 x)
 exit
