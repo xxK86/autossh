@@ -246,7 +246,7 @@ wget -O info "https://raw.githubusercontent.com/lesta-1/autossh/main/info.sh"
 wget -O ram "https://raw.githubusercontent.com/lesta-1/autossh/main/ram.sh"
 wget -O renew "https://raw.githubusercontent.com/lesta-1/autossh/main/renew.sh"
 wget -O xp "https://raw.githubusercontent.com/lesta-1/autossh/main/xp.sh"
-wget -O update "https://raw.githubusercontent.com/lesta-1/autossh/main/patch.sh"
+wget -O patch "https://raw.githubusercontent.com/lesta-1/autossh/main/patch.sh"
 chmod +x menu
 chmod +x usernew
 chmod +x trial
@@ -257,7 +257,7 @@ chmod +x about
 chmod +x ram
 chmod +x renew
 chmod +x xp
-chmod +x update
+chmod +x patch
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
 # remove unnecessary files
